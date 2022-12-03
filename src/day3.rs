@@ -8,7 +8,6 @@ impl Rucksack {
     pub fn find_in_common(&self) -> Option<char> {
         for c in self.comp1.chars() {
             if self.comp2.contains(c) {
-                println!("{}", c);
                 return Some(c);
             }
         }

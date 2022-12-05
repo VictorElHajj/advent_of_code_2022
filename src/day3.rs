@@ -34,7 +34,7 @@ pub fn char_priority(c: char) -> usize {
 }
 
 #[aoc_generator(day3)]
-pub fn generator_part1(input: &str) -> Vec<Rucksack> {
+pub fn generator(input: &str) -> Vec<Rucksack> {
     input
         .lines()
         .map(|line| {
